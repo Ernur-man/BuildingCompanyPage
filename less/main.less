@@ -1,0 +1,87 @@
+.first_block{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/main_fon.png)no-repeat center/cover;
+    position: relative;
+    main{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(88.32deg, rgba(32, 32, 106, 0.55) 2.071%,rgba(104, 104, 171, 0.52) 61.006%,rgba(0, 0, 104, 0.22) 98.019%);
+        position: absolute;
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+            header{
+                border-radius: 108px;
+                backdrop-filter: blur(38px);
+                background: rgba(217, 217, 217, 0.2);
+                margin-top: 20px;
+                .flex_between;
+                padding: 16px 24px;
+                margin-bottom: 150px;   
+                img{
+                    width: 70px;
+                }
+                menu{
+                    width: 600px;
+                    color: white;
+                    .flex_between;
+                    a{
+                        .txt;
+                        font-size: 16px;
+                        transition: 0.3s;
+                        &:hover{
+                            color: rgb(0, 0, 83);
+                        }
+                    }
+                }
+                form{
+                    border-radius: 40px;
+                    background: rgba(255, 255, 255, 0.31);
+                    padding: 6px 10px;
+                    i{
+                        margin-right: 8px;
+                        color: rgba(0, 0, 83, 0.3);
+                    }
+                    input{
+                        outline: none;
+                        background: none;
+                        border: none;   
+                    }
+                }
+            }
+            >aside{
+                width: 700px;
+                h2{
+                    .head;
+                    margin-bottom: 20px;
+                    span{
+                        .txt;
+                        font-size: 30px;
+                        font-family: 'Days one';
+                    }
+                }
+                p{
+                    .txt;
+                    font-size: 16px;
+                    margin-bottom: 30px;
+                }
+                nav{
+                    width: 330px;
+                    .flex_between;
+                    button{
+                        border: none;
+                        border-radius: 10px;
+                        background: none;
+                        padding: 12px;
+                        .txt;
+                        transition: 0.3s;
+                        &:hover{
+                            background: rgb(0, 0, 83);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
