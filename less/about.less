@@ -49,3 +49,91 @@
         }
     }
 }
+
+
+@media (max-width: 768px) {
+    .about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        .container {
+            width: 90%;
+
+            h2 {
+                font-size: 30px;
+                margin-bottom: 50px;
+            }
+
+            article {
+                flex-direction: column;
+                gap: 50px;
+
+                aside {
+                    width: 100%;
+
+                    h3 {
+                        font-size: 24px;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 1.6;
+                    }
+
+                    &:first-child {
+                        text-align: left;
+                    }
+
+                    &:last-child {
+                        width: 220px;
+                        height: 300px;
+
+                        .employees {
+                            width: 260px;
+                            transform: translateY(-35px) translateX(-50px);
+                        }
+
+                        .logo_2 {
+                            width: 30%;
+                            transform: translateY(-15px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .container {
+            h2 {
+                font-size: 26px;
+                margin-bottom: 40px;
+            }
+
+            article {
+                gap: 40px;
+
+                aside {
+                    h3 {
+                        font-size: 21px;
+                    }
+
+                    p {
+                        font-size: 13px;
+                    }
+
+                    &:last-child {
+                        display: none;
+
+                    }
+                }
+            }
+        }
+    }
+}

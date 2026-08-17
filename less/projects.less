@@ -61,3 +61,124 @@
         }
     }
 }
+
+
+
+@media (max-width: 768px) {
+    .projects {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        .container {
+            width: 90%;
+
+            > h2 {
+                font-size: 26px;
+                margin-bottom: 15px;
+            }
+
+            > h3 {
+                font-size: 22px;
+                margin-bottom: 50px;
+            }
+
+            article {
+                flex-direction: column;
+                gap: 50px;
+
+                aside {
+                    width: 100%;
+
+                    &:first-child {
+                        width: 230px;
+                        height: 340px;
+
+                        .logo_2 {
+                            width: 25%;
+                            padding-top: 15px;
+                        }
+
+                        .skyscraper {
+                            width: 80%;
+                            transform: translateX(45px) translateY(5px);
+                        }
+                    }
+
+                    &:last-child {
+                        nav {
+                            margin-bottom: 25px;
+
+                            img {
+                                width: 60px;
+                                height: 60px;
+                                object-fit: cover;
+                                margin-right: 5px;
+                                border-radius: 10px;
+                            }
+
+                            div {
+                                margin: 5px;
+
+                                h3 {
+                                    font-size: 20px;
+                                    margin-bottom: 8px;
+                                }
+
+                                p {
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .projects {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .container {
+            > h2 {
+                font-size: 24px;
+            }
+
+            > h3 {
+                font-size: 19px;
+                margin-bottom: 40px;
+            }
+
+            article {
+                gap: 40px;
+
+                aside {
+                    &:first-child {
+                        display: none;
+                    }
+
+                    &:last-child {
+                        nav {
+                            img {
+                                width: 50px;
+                                height: 50px;
+                            }
+
+                            div {
+                                h3 {
+                                    font-size: 18px;
+                                }
+
+                                p {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
